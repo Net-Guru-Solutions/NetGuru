@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { InfiniteMovingCardsDemo } from "../snippets/infinite-moving-card-snippet";
 import { Spotlight } from "@/components/ui/spotlight";
@@ -12,12 +12,11 @@ import Link from "next/link";
 import FAQS from "./faq";
 
 export default function Home() {
-
-	return ( 
-		<div className="flex flex-col items-center justify-center ">
-			<Spotlight className="hidden md:flex md:-top-80 left-80" fill="white" />
+	return (
+		<div className="max-w-screen md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+			<Spotlight className="hidden md:flex md:-top-80 left-80  " fill="white" />
 			<div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
-				<div className="text-4xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+				<div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
 					Create, grow, and <br /> scale your business
 				</div>
 				<p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
@@ -30,7 +29,6 @@ export default function Home() {
 				>
 					Book a call
 				</Link>
-
 				<div className="w-full pt-20">
 					<SliderOne />
 					<WebsiteDesign />
