@@ -69,19 +69,17 @@ export const Navbar = () => {
 					<ThemeSwitch />
 				</NavbarItem>
 				<NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-				{/* <NavbarItem className="hidden md:flex">
+			</NavbarContent>
+			<NavbarItem className="hidden md:flex">
+				<Link href="/contact">
 					<Button
-						isExternal
-						as={Link}
 						className="text-sm font-normal text-default-600 bg-default-100"
-						href={siteConfig.links.sponsor}
-						startContent={<HeartFilledIcon className="text-danger" />}
 						variant="flat"
 					>
-						Sponsor
+						Contect Us
 					</Button>
-				</NavbarItem> */}
-			</NavbarContent>
+				</Link>
+			</NavbarItem>
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
 				<Link isExternal href={siteConfig.links.github} aria-label="Github">
