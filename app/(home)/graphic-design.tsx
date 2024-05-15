@@ -11,7 +11,7 @@ const GraphicDesign = () => {
         Graphic Design <br />
       </div>
 
-      <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto">
+      <p className="mt-4 text-lg font-normal max-w-lg text-center mx-auto">
         We create stunning visuals for your brand. From logos to social media
         posts, we&apos;ve got you covered.
       </p>

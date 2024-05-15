@@ -9,7 +9,8 @@ const WebsiteDesign = () => {
       <div className="text-4xl  md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
               Website Design <br /> that works
       </div>
-      <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
+      <p className="mt-4 text-lg font-normal 
+       max-w-lg text-center mx-auto px-4">
       Creating, designing and developing websites that work for your business.
         </p>
         </div>

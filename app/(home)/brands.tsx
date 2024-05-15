@@ -39,7 +39,7 @@ const Brands = () => {
           The best brands <br /> choose us
         </div>
 
-        <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto">
+        <p className="mt-4 text-lg font-normal max-w-7xl text-center mx-auto">
           From small businesses to large corporations, we have helped many
           brands elevate their business.
         </p>
@@ -61,7 +61,7 @@ const Brands = () => {
 
         <div
           className={cn(
-            "flex items-center justify-center text-xl xl:text-2xl pt-10 md:pt-0 pb-4  px-8  text-center text-white  ",
+            "flex items-center justify-center text-xl xl:text-2xl pt-10 md:pt-0 pb-4  px-8  text-center",
             font.className
           )}
         >
